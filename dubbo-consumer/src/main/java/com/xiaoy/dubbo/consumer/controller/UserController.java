@@ -22,6 +22,7 @@ public class UserController {
 
     @GetMapping("/application/properties")
     public String getProperties(){
+        //添加注释
         return userDubboService.getApplicationProperties();
     }
 
